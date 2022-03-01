@@ -20,3 +20,6 @@ if sweep is TRUE - will set paramaters
 if sweep if FALSE - will run kfold sweep.  
 
 trec_eval.exe is also selected as the code was run in windows. if running in Mac or linux the other trec_eval executable will need to be run. Edit the code specifying to use the appropriate trec_eval executable.
+
+install libraries needed:  
+pip install requirements.txt
