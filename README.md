@@ -6,7 +6,7 @@ As this is a univeristy assigment we must use train.tsv to train our model and t
 
 ## LambdaRank
 LambdaRank is used for this problem. LGBMRanker from the lightgbm library. A k-fold cross validation gridsearch is run to find the best hyperparameters.   
-NDCG score is used to validate the efficiency of the model which is calculated using trec_eval.exe.   
+NDCG score is used as the evaluation metric to find the efficiency of the model which is calculated using trec_eval.exe.   
 train.qrels is used by trec_eval.exe and contains the query document pairs and their label that are in train.tsv.
 
 the following files will be created due to use of trec_eval:  
